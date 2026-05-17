@@ -1,0 +1,230 @@
+body {
+    background-color: #111111;
+}
+
+/* Navigation bar */
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navigation_list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-family: "JetBrain Mono", monospace;
+  padding-right: 50px;
+}
+
+#navigation_list a {
+    text-decoration: none;
+    color: grey;
+}
+
+#navigation_list a:hover {
+    color: darkgrey;
+}
+
+#Developer_user {
+    font-family: "JetBrains Mono", monospace;
+    color: #0a6a05;
+    padding-left: 50px;
+}
+
+#Navigation_line {
+    margin-top: 0;
+    border: 1px solid rgba(30, 30, 30, 0.941);
+    width: 1500px;
+}
+
+/* Main heading */
+.main_heading {
+    padding-left: 50px;
+    margin-top: 120px;
+}
+
+#dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #00bcd4;
+    border-radius: 50%;
+}
+
+#commission_status {
+    color: grey;
+    padding-left: 5px;
+    word-spacing: 2px;
+    font-family: "JetBrains Mono", monospace;
+}
+
+#Developer_user_2 {
+    font-family: "JetBrains Mono", monospace;
+    color: #e0e0e0;
+    padding-top: 20px;
+    font-size: 70px;
+}
+
+#main_heading_description {
+    font-family: "JetBrain Mono", monospace;
+    color: #e0e0e0;
+    font-size: 17px;
+}
+
+#Main_heading_line {
+    margin-top: 100px;
+    border: 1px solid rgba(30, 30, 30, 0.941);
+    width: 1500px;
+}
+
+/* About me */
+.aboutme_section {
+    margin-top: 100px;
+    padding-left: 50px;
+}
+
+#Aboutme_heading {
+    font-family: "JetBrain Mono", monospace;
+    font-size: 35px;
+    color: #00ff99;
+}
+
+#Main_description {
+    color: #e0e0e0;
+    font-family: "JetBrain Mono", monospace;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+#Aboutme_content {
+    color: #e0e0e0;
+    font-family: "JetBrain Mono", monospace;
+    margin-top: 0px;
+}
+
+#Aboutme_line {
+    margin-top: 100px;
+    border: 1px solid rgba(30, 30, 30, 0.941);
+    width: 1500px;
+}
+
+/* My projects */
+#project {
+    margin-top: 100px;
+    padding-left: 50px;
+}
+
+#project_heading {
+    font-family: "JetBrain Mono", monospace;
+    font-size: 35px;
+    color: #00ff99;
+}
+
+#project_description {
+    margin-top: 35px;
+    font-family: "JetBrain Mono", monospace;
+    color: #e0e0e0;
+}
+
+#project_list {
+    margin-top: 50px;
+    list-style: none;
+    font-family: "JetBrain Mono", monospace;
+    color: #e0e0e0;
+}
+
+#project_list li {
+    margin-bottom: 50px;
+    font-size: 17px;
+}
+
+#project_list a {
+    color: #00bcd4;
+}
+
+#project_line {
+    margin-top: 100px;
+    border: 1px solid rgba(30, 30, 30, 0.941);
+    width: 1500px;
+}
+
+/* My reviews */
+#review {
+    margin-top: 70px;
+    padding-left: 50px;
+}
+
+#reviews_heading {
+    font-family: "JetBrain Mono", monospace;
+    font-size: 35px;
+    color: #00ff99;
+}
+
+#review img {
+    border: 1px solid #e0e0e0;
+    margin-top: 50px;
+}
+
+#review_line {
+    margin-top: 100px;
+    border: 1px solid rgba(30, 30, 30, 0.941);
+    width: 1500px;
+}
+
+/* Commission */
+#commission {
+    margin-top: 70px;
+    padding-left: 50px;
+}
+
+#payment_method {
+    font-family: "JetBrain Mono", monospace;
+    font-size: 35px;
+    color: #00ff99;
+}
+
+#payment_description {
+    font-family: "JetBrain Mono", monospace;
+    color: #e0e0e0;
+}
+
+#commission_line {
+    margin-top: 100px;
+    border: 1px solid rgba(30, 30, 30, 0.941);
+    width: 1500px;
+}
+
+/* My contact */
+#contact {
+    margin-top: 70px;
+    padding-left: 50px;
+}
+
+#contact_info {
+    font-family: "JetBrain Mono", monospace;
+    font-size: 20px;
+    color: grey;
+}
+
+#contact_list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+#email {
+    font-family: "JetBrain Mono", monospace;
+    color: #e0e0e0;
+    font-size: 13.5px;
+}
+
+#contact_list img {
+    width: 25px;
+    filter: invert(1);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
