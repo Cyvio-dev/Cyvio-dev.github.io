@@ -103,6 +103,32 @@ body {
     margin-top: 0px;
 }
 
+#technologies_heading {
+    color: #00ff99;
+    font-family: "JetBrain Mono", monospace;
+    margin-top: 70px;
+    text-align: center;
+    padding-right: 50px;
+}
+
+#technologies_list {
+    list-style: none;
+    color: darkgrey;
+    font-family: "JetBrain Mono", monospace;
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+    margin-top: 70px;
+    gap: 70px;
+    font-size: 40px;
+}
+
+#technologies_list li {
+    border: 2px solid grey;
+    padding: 10px;
+    border-radius: 20px;
+}
+
 #Aboutme_line {
     margin-top: 100px;
     border: 1px solid rgba(30, 30, 30, 0.941);
@@ -184,9 +210,21 @@ body {
     color: #00ff99;
 }
 
-#payment_description {
+#robux_method {
     font-family: "JetBrain Mono", monospace;
     color: #e0e0e0;
+    margin-top: 50px;
+}
+
+#robux_pricing {
+    font-family: "JetBrain Mono", monospace;
+    color:#e0e0e0;
+}
+
+#note {
+    font-family: "JetBrain Mono", monospace;
+    color: #e0e0e0;
+    margin-top: 100px;
 }
 
 #commission_line {
