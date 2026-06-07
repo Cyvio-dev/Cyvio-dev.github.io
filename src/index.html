@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>@Cyvio</title>
 </head>
 <body>
@@ -14,7 +13,7 @@
             <h1 id="Developer_user">Cyvio.Portfolio</h1>
             <ul id="navigation_list">
                 <li><a href="#project">Projects</a></li>
-                <li><a href="#review">Reviews</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
                 <li><a href="#commission">Commission</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -27,7 +26,7 @@
         <span id="dot"></span>
         <span id="commission_status">Available for work</span>
         <h1 id="Developer_user_2">@Cyvio</h1>
-        <p id="main_heading_description">I'm a python developer. I build front-end websites (I don't do backend much yet), discord bots, backend systems, databases, and automation scripts.</p>
+        <p id="main_heading_description">I'm a python developer. I build front-end websites, discord bots, and automation scripts.</p>
     </section>
     <hr id="Main_heading_line">
 
@@ -40,8 +39,7 @@
         <h3 id="technologies_heading">Technologies I've worked with:</h3>
         <ul id="technologies_list">
             <li>Python</li>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>Git</li>
             <li>Discord.py</li>
             <li>PostgreSQL</li>
         </ul>
@@ -52,49 +50,24 @@
     <section id="project">
         <h1 id="project_heading">Projects</h1>
         <p id="project_description">Below is a list of projects I've worked on.</p>
-        <ul id="project_list">
-            <li>
-                <strong>Ticket bot</strong>
-                <br>
-                Technologies used: Discord.py, Python, PostgreSQL
-                <br>
-                <a href="https://www.youtube.com/watch?v=utS9kUXJtGw" target="_blank">Demonstration</a>
-            </li>
-            <li>
-                <strong>Logging bot</strong>
-                <br>
-                Technologies used: Discord.py, Python, PostgreSQL
-                <br>
-                <a href="https://www.youtube.com/watch?v=Y54O_bILZB4" target="_blank">Demonstration</a>
-            </li>
-            <li>
-                <strong>Custom bot</strong>
-                <br>
-                A custom bot I made for my server
-                <br>
-                Technologies used: Discord.py, Python
-                <br>
-                <a href="https://gist.github.com/Cyvio-dev/725936ddc786d1ee50e1bc332ef6ec6b" target="_blank">Github gist</a>
-            </li>
-        </ul>
+        <div class="project_cards">
+            <div class="project_1">
+                <a href="https://gist.github.com/Cyvio-dev/725936ddc786d1ee50e1bc332ef6ec6b" target="_blank"><img src="/images/custombot.png" id="custombot" alt="custombot_preview"></a>
+                <h3 id="projectheading_1">Custom bot</h3>
+                <p id="description_1">A custom bot I made for my server</p>
+                <div class="tags">
+                    <span class="tag">Discord.py</span>
+                    <span class="tag">Python</span>
+                </div>
+            </div>
     </section>
     <hr id="project_line">
-
-    <!-- My reviews -->
-     <section id="review">
-        <h1 id="reviews_heading">Reviews</h1>
-        <img src="review.png" alt="Review_1"/>
-        <img src="review2.png" alt="Review_2"/>
-        <img src="review3.png" alt="Review_3"/>
-     </section>
-     <hr id="review_line">
 
     <!-- Commission -->
      <section id="commission">
         <h1 id="payment_method">Services pricing</h1>
-        <h3 id="robux_method">Robux:</h3>
-        <p id="robux_pricing">Starting price: 1000 Robux (It'll increase based on the complexity of the project)</p>
-        <p id="note">Note: I'm not taking payments in USD at the moment.</p>
+        <p id="basic_tier"><strong>Basic tier</strong> — $10 to 25 / R$1000 to 2,500<br>Simple, straightforward projects. Think basic bots, single-page sites, or small automation scripts with limited functionality.</p>
+        <p id="intermediate_tier"><strong>Intermediate tier</strong> — $30 to 45 / R$3,000 to 4,500<br>Projects with more moving parts. Multi-feature bots or scripts that integrate with external services.</p>
      </section>
      <hr id="commission_line">
 
@@ -105,12 +78,12 @@
             <li id="email">email: raypan973@gmail.com</li>
             <li>
                 <a href="https://discord.com/users/804384349855678515" target="_blank">
-                    <img src="discord.svg">
+                    <img src="/images/discord.svg">
                 </a>
             </li>
             <li>
                 <a href="https://github.com/Cyvio-dev" target="_blank">
-                    <img src="github.svg">
+                    <img src="/images/github.svg">
                 </a>
             </li>
         </ul>

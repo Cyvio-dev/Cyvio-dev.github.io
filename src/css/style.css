@@ -4,17 +4,17 @@ body {
 
 /* Navigation bar */
 .Navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #navigation_list {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  font-family: "JetBrain Mono", monospace;
-  padding-right: 50px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: "JetBrain Mono", monospace;
+    padding-right: 50px;
 }
 
 #navigation_list a {
@@ -153,46 +153,63 @@ body {
     color: #e0e0e0;
 }
 
-#project_list {
+.project_cards {
+    display: flex;
+    gap: 50px;
+}
+
+.project_1 {
+    border: 1px solid #fff;
+    margin-left: 100px;
     margin-top: 50px;
-    list-style: none;
-    font-family: "JetBrain Mono", monospace;
+    background-color: #1a1a1a;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+.project_1:hover {
+    transform: scale(1.05);
+}
+
+#custombot {
+    height: 300px;
+    width: 400px;
+    display: block;
+}
+
+#projectheading_1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: "JetBrains Mono", monospace;
     color: #e0e0e0;
 }
 
-#project_list li {
-    margin-bottom: 50px;
-    font-size: 17px;
+#description_1 {
+    margin-top: 0%;
+    margin-left: 10px;
+    color: #e0e0e0;
+    font-family: "JetBrains Mono" monospace;
 }
 
-#project_list a {
-    color: #00bcd4;
+.tags {
+    display: flex;
+    gap: 10px;
+}
+
+.tag {
+    font-family: "JetBrains Mono" monospace;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+    margin-left: 13px;
+    border: 1px solid #3d3d3d;
+    border-radius: 10%;
+    background-color: #2b2b2b;
+    font-size: 15px;
+    padding: 3px 3px;
 }
 
 #project_line {
-    margin-top: 100px;
-    border: 1px solid rgba(30, 30, 30, 0.941);
-    width: 1500px;
-}
-
-/* My reviews */
-#review {
-    margin-top: 70px;
-    padding-left: 50px;
-}
-
-#reviews_heading {
-    font-family: "JetBrain Mono", monospace;
-    font-size: 35px;
-    color: #00ff99;
-}
-
-#review img {
-    border: 1px solid #e0e0e0;
-    margin-top: 50px;
-}
-
-#review_line {
     margin-top: 100px;
     border: 1px solid rgba(30, 30, 30, 0.941);
     width: 1500px;
@@ -210,21 +227,18 @@ body {
     color: #00ff99;
 }
 
-#robux_method {
+#basic_tier {
     font-family: "JetBrain Mono", monospace;
     color: #e0e0e0;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-#robux_pricing {
+#intermediate_tier {
     font-family: "JetBrain Mono", monospace;
     color:#e0e0e0;
-}
-
-#note {
-    font-family: "JetBrain Mono", monospace;
-    color: #e0e0e0;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 25px
 }
 
 #commission_line {
@@ -264,9 +278,9 @@ body {
 
 
 html {
-  scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
 
 section {
-  scroll-margin-top: 80px;
+scroll-margin-top: 80px;
 }

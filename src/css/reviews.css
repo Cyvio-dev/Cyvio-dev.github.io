@@ -1,0 +1,172 @@
+body {
+    background-color: #111111;
+}
+
+/* Navigation bar */
+.Navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navigation_list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: "JetBrain Mono", monospace;
+    padding-right: 50px;
+}
+
+#navigation_list a {
+    text-decoration: none;
+    color: grey;
+}
+
+#navigation_list a:hover {
+    color: darkgrey;
+}
+
+#Developer_user {
+    font-family: "JetBrains Mono", monospace;
+    color: #0a6a05;
+    padding-left: 50px;
+}
+
+#Navigation_line {
+    margin-top: 0;
+    border: 1px solid rgba(30, 30, 30, 0.941);
+    width: 1500px;
+}
+
+/* Reviews */
+#reviews_heading {
+    font-family: "JetBrain Mono", monospace;
+    font-size: 35px;
+    color: #00ff99;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+/* Review_1 */
+.review_card_1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid #fff;
+    padding: 15px 15px;
+    background-color: #1a1a1a;
+}
+
+.avatar_1 {
+    display: flex;
+    gap: 20px;
+}
+
+#profilepicture_1 {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;      
+    border-radius: 50%;    
+    border: 2px solid #e0e0e0;
+}
+
+#username_1 {
+    font-family: "JetBrain Mono", monospace;
+    color: #e0e0e0;
+    
+}
+
+#starreview_1 {
+    font-size: 13px;
+    margin-top: 30px;
+    font-family: "JetBrain Mono" monospace;
+    color: gold;
+}
+
+#review_1 {
+    font-family: "JetBrain Mono", monospace;
+    color: #e0e0e0;
+}
+
+.review_card_2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid #fff;
+    padding: 15px 15px;
+    background-color: #1a1a1a;
+}
+
+.avatar_2 {
+    display: flex;
+    gap: 20px;
+}
+
+#profilepicture_2 {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;      
+    border-radius: 50%;    
+    border: 2px solid #e0e0e0;
+}
+
+#username_2 {
+    font-family: "JetBrain Mono", monospace;
+    color: #e0e0e0;
+    
+}
+
+#starreview_2 {
+    font-size: 13px;
+    margin-top: 30px;
+    font-family: "JetBrain Mono" monospace;
+    color: gold;
+}
+
+#review_2 {
+    font-family: "JetBrain Mono", monospace;
+    color: #e0e0e0;
+}
+
+.review_card_3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid #fff;
+    padding: 15px 15px;
+    background-color: #1a1a1a;
+}
+
+.avatar_3 {
+    display: flex;
+    gap: 20px;
+}
+
+#profilepicture_3 {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;      
+    border-radius: 50%;    
+    border: 2px solid #e0e0e0;
+}
+
+#username_3 {
+    font-family: "JetBrain Mono", monospace;
+    color: #e0e0e0;
+    
+}
+
+#starreview_3 {
+    font-size: 13px;
+    margin-top: 30px;
+    font-family: "JetBrain Mono" monospace;
+    color: gold;
+}
+
+#review_3 {
+    font-family: "JetBrain Mono", monospace;
+    color: #e0e0e0;
+}
