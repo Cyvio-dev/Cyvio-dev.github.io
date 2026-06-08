@@ -192,6 +192,40 @@ body {
     font-family: "JetBrains Mono" monospace;
 }
 
+.project_2 {
+    border: 1px solid #fff;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: #1a1a1a;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+.project_2:hover {
+    transform: scale(1.05);
+}
+
+#marketplace {
+    height: 300px;
+    width: 400px;
+    display: block;
+}
+
+#projectheading_2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: "JetBrains Mono", monospace;
+    color: #e0e0e0;
+}
+
+#description_2 {
+    margin-top: 0%;
+    margin-left: 10px;
+    color: #e0e0e0;
+    font-family: "JetBrains Mono" monospace;
+}
+
 .tags {
     display: flex;
     gap: 10px;
