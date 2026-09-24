@@ -1,204 +1,271 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8"/>
-    <title>@Cyvio</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./src/css/style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
-    <!-- Glassmorphism -->
-
-    <div class="ellipse-1"></div>
-    <div class="ellipse-2"></div>
-    <div class="ellipse-3"></div>
-
     <!-- Navigation bar -->
-
     <nav>
-      <div class="Navigation">
-        <a href="#main_heading" class="developer_user">Cyvio.Portfolio</a>
-        <ul class="navigation_list">
-          <li><a href="#my_projects">Projects</a></li>
-          <li><a href="reviews.html">Reviews</a></li>
-          <li><a href="#commission">Commission</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
+        <div id="navigation-container" hidden>
+            <div class="avatar-container">
+                <img src="./images/Discord bot logo 2.png" alt="avatar" class="avatar">
+            </div>
+            <button class="dropdown-menu">Menu</button>
+            <div class="sections-container">
+                <a href="#hero-section" class="sections-button">Home</a>
+                <a href="#stacks-section" class="sections-button">Stacks</a>
+                <a href="#projects-section" class="sections-button">Projects</a>
+                <a href="#reviews-section" class="sections-button">Reviews</a>
+                <a href="#contacts-section" class="sections-button">Contact</a>
+            </div>
+            <div class="theme-container">
+                <div class="btn-track">
+                    <button class="theme-switch"></button>
+                </div>
+            </div>
+        </div>
     </nav>
 
-    <!-- Main heading -->
+    <!-- Hero section -->
 
-    <section id="main_heading">
-      <div class="main_content">
-        <div class="tag">
-          <span class="tag_line"></span>
-          Available for work
-        </div>
-        <div class="username">@Cyvio</div>
-        <div class="description">
-          I'm a python developer. I build front-end websites, discord bots, and
-          automation scripts.
-        </div>
-      </div>
-    </section>
-    <hr class="line" />
-
-    <!-- About me -->
-    <section id="about_me_section">
-      <div class="about_me_container">
-        <h1 class="aboutme_heading">About me</h1>
-        <p class="main_description">
-          Hello! I'm Cyvio, a 19 year old developer.
-        </p>
-        <br />
-        <p class="aboutme_content">
-          I prioritize client satisfaction and intend to complete projects
-          before deadlines. I keep clients updated<br />on their projects and
-          provide a clean project when finished.
-        </p>
-
-        <hr class="line"/>
-
-        <div class="counter_container" data-aos="fade-up">
-          <div class="counter_item">
-            <div class="cv">100%</div>
-            <div class="cs">Satisfaction rate</div>
-          </div>
-          <div class="counter_item">
-            <div class="cv">3 Days</div>
-            <div class="cs">Avg delivery time</div>
-          </div>
-          <div class="counter_item">
-            <div class="cv">24h</div>
-            <div class="cs">Avg response time</div>
-          </div>
-          <div class="counter_item">
-            <div class="cv">3+</div>
-            <div class="cs">Clients served</div>
-          </div>
-        </div>
-
-        <hr class="line"/>
-      </div>
-    </section>
-
-    <!-- My projects -->
-
-    <section id="my_projects" data-aos="fade-up">
-      <div class="my_projects_container">
-        <h1 class="project_heading">Projects</h1>
-        <p class="project_description">
-          Below is a list of projects I've worked on.
-        </p>
-        <div class="project_cards">
-          <div class="project_1">
-            <a
-              href="https://gist.github.com/Cyvio-dev/725936ddc786d1ee50e1bc332ef6ec6b"
-              target="_blank"
-              ><img
-                src="./src/images/custombot.png"
-                class="custombot"
-                alt="custombot_preview"
-            /></a>
-            <h3 class="projectheading_1">Custom bot</h3>
-            <p class="description_1">A custom bot I made for my server</p>
-            <div class="tags">
-              <span class="tag">Discord.py</span>
-              <span class="tag">Python</span>
+    <section id="hero-section" data-aos="fade-up">
+        <div class="hero-container" data-aos="fade-up">
+            <div class="main-username">
+                <span class="greet">HELLO, I'M</span>
+                <span class="username">Cyvio</span>
+                <span class="description">I build working and interactive websites, chatbots, and automation scripts.</span>
             </div>
-          </div>
-          <div class="project_2">
-            <a
-              href="https://www.youtube.com/watch?v=2mn6MRngWEg"
-              target="_blank"
-              ><img
-                src="./src/images/marketplace.png"
-                class="marketplace"
-                alt="marketplace_preview"
-            /></a>
-            <h3 class="projectheading_2">Marketplace bot</h3>
-            <p class="description_2">A marketplace bot I made for myself</p>
-            <div class="tags">
-              <span class="tag">Discord.py</span>
-              <span class="tag">Python</span>
-              <span class="tag">PostgreSQL</span>
+            <div class="aboutme-description">
+                <span class="description">I'm a 19 year old developer,<br>I prioritize client satisfaction and intend to complete projects before deadlines. I keep clients updated on their projects and provide a clean project when finished.</span>
             </div>
-          </div>
-          <div class="project_3">
-            <a
-              href="http://youtube.com/watch?v=Tmn_UMJZeyo&t"
-              target="_blank"
-              ><img
-                src="./src/images/All-in-one bot.png"
-                class="all-in-one"
-                alt="all-in-onebot_preview"
-            /></a>
-            <h3 class="projectheading_3">All-in-one bot</h3>
-            <p class="description_3">An all-in-one moderation bot which includes logs,<br/> tickets, and a few moderation commands</p>
-            <div class="tags">
-              <span class="tag">Discord.js</span>
-              <span class="tag">Node.js</span>
-              <span class="tag">PostgreSQL</span>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-    <hr class="line"/>
-
-    <!-- Commission -->
-
-    <section id="commission" data-aos="fade-up">
-      <div class="commission_container">
-        <h1 class="payment_method">Services pricing</h1>
-        <p class="basic_tier">
-          <strong>Basic tier</strong> — $10 to 25 / R$1000 to 2,500<br />Simple,
-          straightforward projects. Think basic bots, single-page sites, or
-          small automation scripts with limited functionality.
-        </p>
-        <p class="intermediate_tier">
-          <strong>Intermediate tier</strong> — $30 to 45 / R$3,000 to 4,500<br />Projects
-          with more moving parts. Multi-feature bots or scripts that integrate
-          with external services.
-        </p>
-      </div>
-    </section>
-    <hr class="line"/>
-
-    <!-- Contact me -->
-    <section id="contact">
-      <h5 id="contact_info">Contact</h5>
-      <ul id="contact_list">
-        <li id="email">email: raypan973@gmail.com</li>
-        <li>
-          <a
-            href="https://discord.com/users/804384349855678515"
-            target="_blank"
-          >
-            <img src="./src/images/discord.svg" />
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/Cyvio-dev" target="_blank">
-            <img src="./src/images/github.svg" />
-          </a>
-        </li>
-      </ul>
     </section>
 
+    <!-- Stacks -->
+
+    <section id="stacks-section">
+        <div class="stacks-container" data-aos="fade-up">
+            <div class="stacks-title">
+                <span class="title">Stacks Mastery</span>
+            </div>
+            <div class="stack-1" data-aos="fade-left">
+                <div class="stack">
+                    <img src="./images/html.svg" alt="stack" class="stack-img">
+                    <span class="stack-name">HTML</span>
+                </div>
+                <div class="stack">
+                    <img src="./images/css.svg" alt="stack" class="stack-img">
+                    <span class="stack-name">CSS</span>
+                </div>
+                <div class="stack">
+                    <img src="./images/python.svg" alt="stack" class="stack-img">
+                    <span class="stack-name">Python</span>
+                </div>
+                <div class="stack">
+                    <img src="./images/node-js.svg" alt="stack" class="stack-img">
+                    <span class="stack-name">Node.js</span>
+                </div>
+            </div>
+            <div class="stack-2" data-aos="fade-left">
+                <div class="stack">
+                    <img src="./images/discord-js.svg" alt="stack" class="stack-img">
+                    <span class="stack-name">Discord.js</span>
+                </div>
+                <div class="stack">
+                    <img src="./images/discord-py.svg" alt="stack" class="stack-img">
+                    <span class="stack-name">Discord.py</span>
+                </div>
+                <div class="stack">
+                    <img src="./images/postgresql.svg" alt="stack" class="stack-img">
+                    <span class="stack-name">PostgreSQL</span>
+                </div>
+            </div>
+            <div class="stack-3" data-aos="fade-left">
+                <div class="stack">
+                    <img src="./images/sql.svg" alt="stack" class="stack-img">
+                    <span class="stack-name">SQL</span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+
+    <section id="projects-section">
+        <div class="projects-container" data-aos="fade-up">
+            <div class="project-title">
+                <span class="title">Projects</span>
+            </div>
+            <div class="projects-card" data-aos="fade-up">
+                <div class="projects-description-container">
+                    <span class="project-name">All-in-one moderation bot</span>
+                    <span class="project-description">This is a bot with the most common moderation commands used in every server. It also handles logs and tickets alongside moderation.</span>
+                    <ul class="project-bulletpoints">
+                        <li>Handle tickets</li>
+                        <li>Can handle logs</li>
+                        <li>Moderation commands</li>
+                        <li>Verification command</li>
+                    </ul>
+                    <div class="tags-container">
+                        <div class="project-tags">
+                            <span class="tag-name">Discord.js</span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag-name">Javascript</span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag-name">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <a href="https://www.youtube.com/watch?v=Tmn_UMJZeyo&t=1s" target="_blank" rel="noopener noreferrer"><img src="./images/All-in-one%20bot.png" class="image" alt="bot-preview"></a>
+                </div>
+            </div>
+            <div class="projects-card" data-aos="fade-up">
+                <div class="projects-description-container">
+                    <span class="project-name">Marketplace bot</span>
+                    <span class="project-description">The bot makes it easier for people to post their portfolios and their work, it's widely used in hiring/development servers.</span>
+                    <ul class="project-bulletpoints">
+                        <li>User can give reviews</li>
+                        <li>Developer can see his reviews</li>
+                        <li>An approval system for staff</li>
+                    </ul>
+                    <div class="tags-container">
+                        <div class="project-tags">
+                            <span class="tag-name">Discord.js</span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag-name">Javascript</span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag-name">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <a href="https://www.youtube.com/watch?v=2mn6MRngWEg" target="_blank" rel="noopener noreferrer"><img src="./images/marketplace.png" class="image" alt="bot-preview"></a>
+                </div>
+            </div>
+            <div class="projects-card" data-aos="fade-up">
+                <div class="projects-description-container">
+                    <span class="project-name">Client portfolio</span>
+                    <span class="project-description">This is a portfolio that I made for a client according to his descriptions.</span>
+                    <ul class="project-bulletpoints">
+                        <li>Interactive</li>
+                        <li>Light/Dark theme</li>
+                        <li>Responsive</li>
+                    </ul>
+                    <div class="tags-container">
+                        <div class="project-tags">
+                            <span class="tag-name">HTML</span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag-name">CSS</span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag-name">Javascript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <a href="https://www.youtube.com/watch?v=9udv-NxFIIE" target="_blank" rel="noopener noreferrer"><img src="./images/Client-portfolio.png" class="image" alt="bot-preview"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews section -->
+     
+    <section id="reviews-section">
+        <div class="reviews-container" data-aos="fade-up">
+            <div class="title-container">
+                <span class="title">Reviews</span>
+            </div>
+            <div class="review-cards-container">
+                <div class="review-card-row" data-aos="fade-left">
+                    <div class="review-card">
+                        <div class="username-container">
+                            <span class="username">Bakra</span>
+                            <div class="review-stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="rating">5.0</span>
+                            </div>
+                        </div>
+                        <div class="review-description">
+                            <p class="description">I hired cyvio for my custom ticket bot, he finished it well before the deadline. He was very friendly throughout the duration of the project and kept me updated about my bot.</p>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="username-container">
+                            <span class="username">Art</span>
+                            <div class="review-stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="rating">5.0</span>
+                            </div>
+                        </div>
+                        <div class="review-description">
+                            <p class="description">Raypan is an amazing person to work with and I'd definitely recommend him to anyone who needs services related to coding! I've hired him for my moderation bot and he was very transparent & friendly about the development progress. He managed to complete my product within one-third of the delivery time.</p>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="username-container">
+                            <span class="username">AtomicPotassium</span>
+                            <div class="review-stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="rating">5.0</span>
+                            </div>
+                        </div>
+                        <div class="review-description">
+                            <p class="description">I usually code my own stuff, but I had to go somewhere and I wanted a script to automate some of my stuff. This guy finished it within a day. Very good experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts section -->
+
+    <section id="contacts-section">
+        <div class="contacts-container" data-aos="fade-up">
+            <div class="title-container">
+                <span class="title">GET IN <br><span class=touch>TOUCH</span></span>
+            </div>
+            <div class="contact-info">
+                <div class="email-container">
+                    <span class="title">Email:</span>
+                    <span class="email">ahmedimran3233@gmail.com</span>
+                </div>
+                <div class="contact-links">
+                    <a href="https://discord.com/users/804384349855678515" target="_blank" rel="noopener noreferrer"><img src="./images/discord.svg" class="image" alt="contact"></a>
+                    <a href="https://github.com/Cyvio-dev" target="_blank" rel="noopener noreferrer"><img src="./images/github.svg" class="image" alt="contact"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="./script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init({
-        duration: 800,
-        once: false,
-      });
+        AOS.init();
     </script>
   </body>
 </html>
