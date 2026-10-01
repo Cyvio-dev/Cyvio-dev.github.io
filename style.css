@@ -153,6 +153,12 @@ body::before {
 
 /* NAVIGATION BAR */
 
+#navigation-container, header, nav {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
 #navigation-container {
   position: fixed;
   top: 0;
@@ -264,6 +270,11 @@ body::before {
 }
 
 @media screen and (max-width: 1100px) {
+  #navigation-container, header, nav {
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+  }
   #navigation-container {
     flex-wrap: wrap;
   }
