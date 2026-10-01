@@ -118,7 +118,14 @@ body {
   font-family: "JetBrains Mono", monospace;
   transition: background-color 0.2s ease;
   padding-bottom: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
   overflow-x: hidden;
+}
+@media screen and (max-width: 1100px) {
+  body {
+    padding-left: 1%;
+  }
 }
 
 body::before {
@@ -166,9 +173,9 @@ nav {
 
 #navigation-container {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 12px 16px;
+  padding: 12px 24px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -273,6 +280,7 @@ nav {
 @media screen and (max-width: 1100px) {
   #navigation-container {
     flex-wrap: wrap;
+    padding: 12px 16px;
   }
   .dropdown-menu {
     display: block;
